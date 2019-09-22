@@ -1,42 +1,14 @@
 // functions5.rs
 // Make me compile! Scroll down for hints :)
 
+fn square(num: i32) -> i32 {
+    num * num
+}
+
 fn main() {
     let answer = square(3);
     println!("The answer is {}", answer);
 }
-
-fn square(num: i32) -> i32 {
-    num * num;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // This is a really common error that can be fixed by removing one character.
 // It happens because Rust distinguishes between expressions and statements: expressions return

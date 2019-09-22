@@ -4,39 +4,11 @@
 
 fn main() {
     let cat = ("Furry McFurson", 3.5);
-    let /* your pattern here */ = cat;
+    let name /* your pattern here */ = cat.0;
+    let age = cat.1;
 
     println!("{} is {} years old.", name, age);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Take a look at the Data Types -> The Tuple Type section of the book:
 // https://doc.rust-lang.org/book/ch03-02-data-types.html#the-tuple-type
